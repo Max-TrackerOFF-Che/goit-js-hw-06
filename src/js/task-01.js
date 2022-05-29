@@ -8,5 +8,5 @@ const categoriesArray = [...totalCategories]
     categories => `Category: ${categories.children[0].textContent}
 Elements: ${categories.children[1].children.length}`
   )
-  .join("\n");
+  .join("\n"+"\n");
 console.log(categoriesArray);
